@@ -1,0 +1,31 @@
+{
+  "name": "invoices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rajatspn@bitbucket.org/wallicon2/invoices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/wallicon2/invoices/issues"
+  },
+  "homepage": "https://bitbucket.org/wallicon2/invoices#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1162.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "html-pdf": "^3.0.1",
+    "nodemon": "^2.0.20",
+    "qrcode": "^1.5.1"
+  }
+}
